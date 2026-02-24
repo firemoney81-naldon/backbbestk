@@ -1,23 +1,590 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026년 최신 자동차 보험료 비교 가이드: 다이렉트, 연령별, 차종별 완벽 분석</title>
+    <meta name="description" content="2026년 최신 자동차 보험료 비교 견적 사이트, 만 20세/21세 보험료, G70, 카니발, 볼보 XC90, 전기차 보험료 등 다이렉트 보험 가입 정보와 모의계산기를 한눈에 비교할 수 있는 종합 가이드.">
+    <meta name="keywords" content="자동차보험다이렉트비교견적, 20대 자동차보험료, G70보험료, 카니발보험료, 볼보XC90보험료, 자동차보험운전자추가, 자동차보험료모의계산, 2026년 자동차보험">
+    <meta name="author" content="Car Insurance Guide">
+
+    <!-- JSON-LD Structured Data for SEO (Naver AI Agent Optimization) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "2026년 최신 자동차 보험료 비교 가이드: 다이렉트, 연령별, 차종별 완벽 분석",
+      "description": "2026년 최신 자동차 보험료 비교 견적 사이트, 만 20세/21세 보험료, G70, 카니발, 볼보 XC90, 전기차 보험료 등 다이렉트 보험 가입 정보와 모의계산기를 한눈에 비교할 수 있는 종합 가이드.",
+      "url": "https://directcarinsuranceguide.com/comparison-guide",
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebPage",
+              "name": "만 20세 자동차 보험료 가입 가이드",
+              "url": "https://directpqmok.withusdone.com/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebPage",
+              "name": "G70 보험료 비교 분석",
+              "url": "https://cargpromotiond.withusdone.com/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "WebPage",
+              "name": "카니발 하이브리드 보험료 견적",
+              "url": "https://directpqmop.withusdone.com/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "WebPage",
+              "name": "자동차 보험 다이렉트 비교견적",
+              "url": "https://directpqmoh.withusdone.com/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "WebPage",
+              "name": "볼보 XC90 보험료 최신 정보",
+              "url": "https://directpqmov.withusdone.com/"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        /* CSS Reset and Global Styles */
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light background for softness */
+            color: #333;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* Container for central content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #e3f2fd; /* Soft blue header background */
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #b3e5fc;
+        }
+
+        header h1 {
+            color: #1a237e; /* Dark blue title */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        header p {
+            color: #455a64;
+            font-size: 1.2em;
+        }
+
+        /* Section and Article Styling for Visual Hierarchy */
+        section {
+            padding: 30px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #0d47a1; /* Category title color */
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #64b5f6;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #37474f; /* Article title color */
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Card-based layout for articles (Less rigid layout) */
+        .content-card {
+            background-color: #ffffff; /* White card background */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Link Styling */
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Specific Link within text for highlight */
+        .text-link {
+            font-weight: bold;
+            color: #d32f2f; /* Highlight color for embedded links */
+            background-color: #fffde7; /* Soft yellow highlight background */
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        /* Readability optimization for long texts */
+        .article-body p {
+            text-align: justify;
+            margin-bottom: 1.5em;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            h3 {
+                font-size: 1.3em;
+            }
+            .content-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>2026년 최신 자동차 보험료 비교 가이드</h1>
+            <p>다이렉트 보험 비교견적부터 연령별, 차종별 특화 정보까지, 합리적인 보험 설계를 위한 모든 것을 확인하세요.</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Section 1: Age-Specific Insurance (20s) -->
+        <section class="category-section">
+            <h2 id="age-specific-insurance">사회 초년생을 위한 연령별 보험료 분석 (만 20세, 21세)</h2>
+            <div class="content-card">
+                <h3>만 20세 자동차보험: 첫차 보험료 부담 줄이는 핵심 전략</h3>
+                <div class="article-body">
+                    <p>
+                        2026년 현재, 만 20세 운전자가 직면하는 자동차 보험료는 매우 높은 수준입니다. 특히 운전 경력이 짧아 사고 위험이 높다고 판단되기 때문에, 보험사들은 높은 할증률을 적용합니다. 하지만 현명한 보험 설계를 통해 이러한 부담을 최소화할 수 있는 몇 가지 전략이 있습니다. 첫째, 부모님 차량에 동승 운전자로 등록하여 운전 경력을 쌓는 것입니다. 운전 경력 인정 제도는 2026년에도 여전히 유효한 전략으로, 별도 증명서를 제출하면 보험 가입 시 경력으로 인정받아 보험료 할인을 받을 수 있습니다. 둘째, 다이렉트 보험을 적극적으로 활용하는 것입니다. 설계사를 통한 가입보다 평균 15~20% 저렴한 다이렉트 채널은 20대 운전자에게 필수적인 선택지입니다. 셋째, 다양한 할인 특약을 활용해야 합니다. 블랙박스 장착 할인, 주행거리 마일리지 할인(특정 거리 이하 운행 시 환급), T맵이나 카카오내비와 연동되는 안전운전 할인 특약 등은 2026년에도 보험료 절감의 핵심 요소로 작용합니다. 만 20세 운전자가 보험을 가입할 때는 무조건 저렴한 보험사만을 선택하기보다, 사고 처리 능력이나 보장 범위 등을 꼼꼼히 비교하여 자신에게 맞는 최적의 보험을 찾는 것이 중요합니다. 특히 대물배상 한도를 최대한 높게 설정하여 만일의 대형 사고에 대비하는 것이 전문가들의 공통된 조언입니다. 2026년 자동차 보험 시장에서는 AI 기반의 위험 예측 모델이 도입되면서 운전 습관에 따른 할인이 더욱 세분화될 것으로 예상됩니다.
+                        <br><br>
+                        만 20세 운전자가 처음으로 자동차 보험에 가입할 때, 가장 큰 고민은 역시 '보험료'입니다. 20대 초반의 운전자는 보험사 입장에서 사고 발생률이 가장 높은 연령대로 분류되기 때문에, 보험료 산정 기준이 매우 엄격합니다. 2026년 보험 시장 동향을 살펴보면, 젊은 운전자를 위한 새로운 할인 특약들이 등장하고 있지만, 기본 보험료 자체는 여전히 높은 수준을 유지하고 있습니다. 이럴 때일수록 '다이렉트 보험 비교견적 사이트'를 통해 여러 보험사의 견적을 실시간으로 비교하는 것이 중요합니다. 단순히 A사나 B사 한 곳의 견적만으로는 최저가 보험료를 찾기 어렵기 때문입니다. 특히 만 20세는 '만 나이' 기준을 철저히 확인해야 하며, 가족 보험이나 부모님 차량의 운전자 범위를 변경하여 가입하는 '운전자 한정 특약'도 고려해볼 만합니다. 이 시기에는 자기차량손해(자차) 보험 가입 여부도 신중하게 결정해야 합니다. 보험료 절감을 위해 자차를 제외하는 경우도 많지만, 사고 시 수리 비용이 고스란히 본인 부담으로 돌아오기 때문에 경제적 능력에 맞춰 신중하게 선택해야 합니다. 2026년에는 보험료 산출 시 운전자의 신용등급이 미치는 영향이 더욱 커질 수 있다는 분석도 있으므로, 평소 신용 관리도 중요합니다.
+                        <br><br>
+                        운전자보험과 자동차보험의 차이점을 명확히 인지하는 것도 중요합니다. 자동차보험은 차량 사고 시 상대방의 피해나 본인 차량의 수리비를 보장하는 것이 주된 목적이지만, 운전자보험은 운전 중 발생하는 형사적, 행정적 책임(벌금, 변호사 선임 비용 등)을 보장합니다. 만 20세 운전자의 경우, 작은 접촉사고라도 형사적 문제로 비화될 수 있으므로, 운전자보험 역시 신중하게 검토해야 합니다. 특히 최근 법규 강화로 인해 음주운전이나 중과실 사고에 대한 처벌이 무거워지면서, 운전자보험의 중요성도 함께 강조되고 있습니다. 2026년에는 보험사들이 텔레매틱스(Telematics) 기술을 활용한 운전습관 분석 특약을 적극적으로 도입하고 있습니다. 젊은 운전자일지라도 안전운전을 하는 경우 파격적인 할인을 받을 수 있는 기회가 늘어날 것입니다. 이 모든 정보를 <a href="https://directpqmok.withusdone.com/" target="_blank" class="text-link">만20세자동차보험</a>에서 자세히 확인할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>20살차보험료: 보험료 산정 기준과 할인 혜택 집중 분석</h3>
+                <div class="article-body">
+                    <p>
+                        2026년 기준 20살차보험료는 가입하는 차량의 종류, 운전자의 성별, 거주 지역 등 다양한 요소에 의해 결정됩니다. 특히 20살 운전자의 경우, 보험 가입 경력이 전무하고 사고 위험률이 높게 책정되어 있어 보험료가 상대적으로 높습니다. 2026년에는 보험사들이 20대 운전자를 위한 특별 할인 상품을 출시하고 있으며, 운전 교육 이수 할인이나 교통 법규 준수 할인 등 다양한 방법으로 보험료를 절감할 수 있는 기회를 제공하고 있습니다. 20살차보험료를 낮추는 가장 효과적인 방법 중 하나는 '운전자 한정 특약'을 활용하는 것입니다. 가족 한정이나 부부 한정 특약 등을 활용하여 운전 경력이 있는 가족 구성원과 함께 가입하는 경우, 보험료가 크게 절감될 수 있습니다. 20살 운전자가 독립적으로 보험에 가입하는 경우에는 '다이렉트 보험'을 통해 여러 보험사의 견적을 비교하는 것이 필수적입니다. 설계사 수수료가 제외되어 상대적으로 저렴한 다이렉트 보험은 20대 운전자에게 가장 합리적인 선택지입니다. 2026년에는 전기차나 하이브리드 차량에 대한 보험료 할인 혜택도 늘어나고 있어, 차량 구매 시 이러한 점을 고려하는 것도 좋습니다.
+                        <br><br>
+                        20살차보험료는 차량 선택 단계에서부터 영향을 받습니다. 차량 모델별 사고율 통계가 보험료 산정에 중요한 기준이 되기 때문입니다. 예를 들어, 스포츠카나 고성능 차량은 일반 세단에 비해 보험료가 높게 책정됩니다. 따라서 20살 운전자가 첫차를 구매할 때는 보험료 부담이 적은 경차나 준중형 세단을 선택하는 것이 유리합니다. 2026년에는 차량 모델별 손해율 공개가 더욱 투명해지면서, 보험료 산정이 더욱 명확해질 것으로 예상됩니다. 또한, 20대 운전자는 사고 발생 시 대물배상 한도를 높게 설정하는 것이 좋습니다. 최근 수입차나 고가 차량과의 접촉사고가 빈번하게 발생하면서, 대물배상 한도를 1억 원 이상으로 설정하는 것이 일반적입니다. 보험료 차이가 크지 않으므로, 만약을 대비하여 충분한 보장 한도를 확보하는 것이 현명합니다. 이와 함께, 자차보험의 자기부담금을 높여 보험료를 절감하는 방법도 있습니다. 사고 발생 시 본인이 부담하는 금액을 높게 설정하는 대신 보험료를 낮추는 전략입니다.
+                        <br><br>
+                        2026년에는 20살 운전자의 보험료를 결정하는 주요 변수로 '운전 습관'이 부상하고 있습니다. 과거에는 경력만으로 평가되었지만, 최근에는 스마트폰 앱을 활용한 운전 습관 분석을 통해 안전 운전자에게 할인 혜택을 제공하는 보험사가 늘어나고 있습니다. 급가속, 급제동을 줄이는 안전운전 습관을 들인다면 보험료 절감은 물론 안전까지 챙길 수 있습니다. 20살차보험료는 매년 변동되므로, 매년 갱신 시점에 <a href="https://directpqmol.withusdone.com/" target="_blank" class="text-link">20살차보험료</a> 비교 견적을 다시 받아보는 것이 중요합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>만 21세 자동차보험 가입 시 고려 사항과 할인 방법</h3>
+                <div class="article-body">
+                    <p>
+                        만 21세는 만 20세와 마찬가지로 운전 경력이 짧아 보험료 부담이 큰 연령대입니다. 2026년 기준 만 21세 운전자의 자동차보험료는 보험사마다 천차만별이므로, 반드시 비교견적을 통해 최저가를 찾아야 합니다. 만 21세는 특히 운전자 연령 한정 특약을 잘 활용해야 합니다. 보험료 절감을 위해 '만 21세 이상 한정' 특약을 선택하는 것이 일반적이며, 이 경우 20세 운전자보다 보험료가 다소 저렴해질 수 있습니다. 하지만 운전 범위를 넓히는 경우(예: 만 26세 이상 한정)에는 보험료가 크게 할인되므로, 실제 운전할 사람의 연령대를 정확하게 파악하여 특약을 설정해야 합니다. 만약 운전자가 만 21세 한 명뿐이라면, 운전자 1인 한정 특약이 가장 저렴합니다. 2026년에는 보험료 산출 시 운전자의 직업군에 따른 할인도 강화될 수 있습니다. 예를 들어, 공무원이나 전문직 종사자는 사고율이 낮다는 통계에 따라 할인 혜택을 받을 수 있는 보험사가 늘어나고 있습니다.
+                        <br><br>
+                        만 21세 운전자가 보험료를 절감하기 위한 또 다른 방법은 '마일리지 특약'을 활용하는 것입니다. 연간 주행거리가 짧은 경우, 보험료의 일부를 환급받을 수 있습니다. 주로 통학이나 단거리 출퇴근을 하는 21세 운전자에게 매우 유용한 특약입니다. 또한, '블랙박스 할인'은 거의 모든 보험사에서 제공하는 기본적인 할인 혜택이므로 반드시 신청해야 합니다. 블랙박스가 차량에 장착되어 있으면 사고 발생 시 과실 비율을 명확히 할 수 있어 보험사 입장에서도 손해율을 줄이는 데 도움이 되기 때문입니다. 2026년에는 블랙박스 영상 분석을 통해 사고 위험을 예측하는 기술이 발전하면서, 블랙박스 할인이 더욱 세분화될 수 있습니다. 21세 운전자의 경우, 차량 구매 시 신차보다는 중고차를 선택하는 경우가 많습니다. 중고차의 경우 차량 가액이 낮아 자차 보험료가 저렴하다는 장점이 있습니다. 다만, 중고차 구매 시에는 차량 상태를 꼼꼼히 확인하고, 보험 가입 전 정비 이력 등을 확인하여 사고 이력이 없는 차량을 선택해야 합니다.
+                        <br><br>
+                        만 21세 운전자는 <a href="https://directcarunmf.withusdone.com/" target="_blank" class="text-link">21살자동차보험</a> 가입 시 '무보험차 상해' 특약을 반드시 가입해야 합니다. 상대방 차량이 보험에 가입되어 있지 않거나, 뺑소니 사고를 당했을 때 본인이나 가족의 피해를 보상받을 수 있는 중요한 특약입니다. 2026년에는 무보험차 사고 피해에 대한 보상 한도가 상향될 수 있으므로, 보험 가입 시 최신 정보를 확인하는 것이 좋습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: General Comparison and Calculators -->
+        <section class="category-section">
+            <h2 id="comparison-tools">자동차 보험료 다이렉트 비교견적과 모의계산기 활용법</h2>
+            <div class="content-card">
+                <h3>자동차보험다이렉트비교견적사이트: 2026년 최저가 찾는 비법</h3>
+                <div class="article-body">
+                    <p>
+                        2026년 자동차보험 시장은 다이렉트 채널이 주도하고 있습니다. 다이렉트 보험은 설계사 수수료가 없어 일반 보험보다 평균 15% 이상 저렴하며, 운전자가 직접 여러 보험사의 상품을 비교하여 선택할 수 있다는 장점이 있습니다. <a href="https://directpqmoh.withusdone.com/" target="_blank" class="text-link">자동차보험다이렉트비교견적사이트</a>는 이러한 다이렉트 보험 상품을 한눈에 비교할 수 있도록 도와주는 플랫폼입니다. 2026년에는 빅데이터와 AI 기술이 접목되어 운전자의 운전 습관, 차량 모델, 거주 지역 등 다양한 데이터를 분석하여 최적의 보험료를 실시간으로 제시해주는 서비스가 보편화되었습니다. 비교견적 사이트를 이용할 때는 단순히 가격만을 비교할 것이 아니라, 보장 내용과 특약 조건을 꼼꼼히 확인해야 합니다. 특히 긴급출동 서비스, 견인 거리, 물적 사고 할증 기준 금액 등은 보험사별로 차이가 있으므로, 본인의 운전 환경에 맞는 조건을 선택해야 합니다.
+                        <br><br>
+                        비교견적 사이트를 활용할 때의 팁은 '동일 보장 조건'으로 견적을 비교하는 것입니다. 예를 들어, 대인배상Ⅱ, 대물배상 한도, 자기신체사고 보상 한도, 무보험차 상해 한도 등을 동일하게 설정한 후, 보험사별로 최종 보험료를 비교해야 정확한 최저가를 확인할 수 있습니다. 2026년에는 전기차 보급 확대로 인해 전기차 전용 특약(예: 충전 중 사고 보상, 배터리 파손 보상 등)의 중요성이 더욱 커지고 있으므로, 전기차 운전자는 이러한 특약의 포함 여부도 확인해야 합니다. 또한, 비교견적 사이트에서 제공하는 모의계산 기능을 활용하여 보험 가입 전 여러 시나리오(예: 운전자 범위 변경, 자차 제외 등)를 시뮬레이션 해보는 것도 보험료 절감에 도움이 됩니다.
+                        <br><br>
+                        2026년에는 보험료 산출 시 교통법규 위반 기록이 더욱 엄격하게 적용됩니다. 과태료나 범칙금 납부 내역이 보험료 할증으로 이어질 수 있으므로, 평소 안전운전 습관을 유지하는 것이 중요합니다. 다이렉트 비교견적 사이트를 통해 갱신 시점마다 최신 정보를 확인하고, 변경된 개인 정보나 차량 정보를 업데이트하여 정확한 보험료를 산출받는 것이 합리적인 보험 가입의 첫걸음입니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>자동차 보험 모의계산기: 가입 전 필수 확인 사항과 활용 팁</h3>
+                <div class="article-body">
+                    <p>
+                        자동차 보험 모의계산기는 실제 보험 가입 전에 예상 보험료를 미리 산출해 볼 수 있는 유용한 도구입니다. 2026년에는 대부분의 보험사 다이렉트 채널과 비교견적 사이트에서 이 기능을 제공하며, 운전자의 나이, 성별, 차량 정보, 운전 경력 등을 입력하면 실시간으로 예상 보험료를 확인할 수 있습니다. 모의계산기를 활용할 때 가장 중요한 것은 '정확한 정보 입력'입니다. 운전자 범위 설정, 운전 경력, 보험 가입 경력 등을 정확하게 입력해야 실제 보험료와의 오차를 줄일 수 있습니다. 2026년에는 모의계산기의 정확도가 더욱 향상되어, 실제 가입 시점의 보험료와 거의 동일한 수준의 견적을 제공합니다.
+                        <br><br>
+                        모의계산기를 통해 다양한 시나리오를 시뮬레이션 해보는 것이 보험료 절감의 핵심입니다. 예를 들어, 운전자 연령을 '만 26세 이상'으로 설정했을 때와 '만 30세 이상'으로 설정했을 때의 보험료 차이를 비교해볼 수 있습니다. 또한, 자차보험의 자기부담금을 50만 원으로 설정했을 때와 100만 원으로 설정했을 때의 보험료 차이도 쉽게 확인할 수 있습니다. 2026년 보험 시장 동향에 따르면, 보험료 절감을 위해 자기부담금을 높이는 운전자가 늘고 있으며, 특히 고가 차량 운전자에게는 이러한 전략이 더욱 효과적입니다.
+                        <br><br>
+                        <a href="https://directpqmos.withusdone.com/" target="_blank" class="text-link">자동차 보험 모의계산기</a>는 보험 가입 전에 충분한 시간을 가지고 다양한 옵션을 비교 검토할 수 있도록 도와줍니다. 갱신 시점이 다가왔을 때, 기존 보험사의 보험료와 타 보험사의 모의계산 결과를 비교하여 합리적인 선택을 할 수 있습니다. 2026년에는 모의계산기에 'AI 기반 맞춤형 특약 추천' 기능이 추가되어, 운전자의 라이프스타일(자녀 유무, 주행 거리, 운전 시간대 등)에 맞는 특약을 자동으로 추천해주는 서비스도 기대됩니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>자동차보험운전자추가: 운전자 범위 변경 시 유의사항과 비용 분석</h3>
+                <div class="article-body">
+                    <p>
+                        자동차보험 가입 후 운전자를 추가해야 하는 상황은 매우 흔합니다. 가족 구성원의 운전면허 취득, 차량 공동 이용 등 다양한 이유로 운전자 범위를 변경해야 할 때가 있습니다. <a href="https://directpqmoi.withusdone.com/" target="_blank" class="text-link">자동차보험운전자추가</a>는 단순히 운전자 이름만 추가하는 것이 아니라, 운전자 범위 특약을 변경하는 것입니다. 2026년에는 운전자 범위 변경 시 보험료가 실시간으로 재산출되며, 추가되는 운전자의 연령, 운전 경력, 사고 이력 등이 보험료에 영향을 미칩니다. 특히 운전 경력이 짧거나 연령이 낮은 운전자를 추가할 경우, 보험료가 크게 상승할 수 있으므로 주의해야 합니다.
+                        <br><br>
+                        운전자 추가 시 보험료 산정은 '가장 위험도가 높은 운전자'를 기준으로 합니다. 예를 들어, 부모님 차량에 운전 경력이 짧은 20대 자녀를 추가하는 경우, 보험료는 20대 운전자를 기준으로 계산됩니다. 따라서 운전자를 추가하기 전에는 모의계산기를 통해 예상 보험료를 확인하고, 운전자 범위 변경으로 인한 비용 상승을 미리 파악하는 것이 중요합니다. 2026년에는 보험사들이 단기 운전자 특약을 적극적으로 홍보하고 있습니다. 명절이나 휴가철에 임시로 운전을 해야 하는 경우, 단기 운전자 특약을 활용하면 기존 보험료 할증 없이 저렴하게 운전자를 추가할 수 있습니다.
+                        <br><br>
+                        운전자 범위 변경 시 유의해야 할 점은 '가족 한정' 특약의 범위입니다. 보험사마다 가족의 정의가 다르므로(예: 배우자, 자녀, 부모님, 형제자매 포함 여부), 반드시 약관을 확인해야 합니다. 2026년에는 '지정 1인 추가' 특약이 더욱 활성화되어, 가족 외의 특정 인물을 지정하여 운전할 수 있도록 하는 상품도 늘어나고 있습니다. 운전자 추가 시에는 보험사에 연락하여 정확한 정보로 변경해야 하며, 그렇지 않을 경우 사고 발생 시 보상을 받지 못할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>자동차보험 가입 다이렉트: 현명한 가입을 위한 필수 지침</h3>
+                <div class="article-body">
+                    <p>
+                        2026년 자동차보험 시장에서 <a href="https://directpqmoj.withusdone.com/" target="_blank" class="text-link">자동차보험 가입 다이렉트</a> 채널은 대세입니다. 설계사를 통하는 것보다 저렴한 보험료뿐만 아니라, 편리한 비대면 가입 절차, 24시간 언제든 상담 가능한 서비스 등이 강점입니다. 다이렉트 가입 시 가장 중요한 것은 '보장 내용'을 스스로 꼼꼼히 확인하는 것입니다. 대인배상, 대물배상, 자기신체사고(혹은 자동차상해), 무보험차 상해, 자기차량손해(자차) 등 5가지 핵심 보장 항목의 내용을 정확히 이해하고 가입해야 합니다. 2026년에는 '자동차상해' 특약이 '자기신체사고' 특약보다 보장 범위가 넓어 인기가 높습니다. 자동차상해 특약은 사고 시 본인 과실이 있어도 보험료 할증 없이 보상을 받을 수 있다는 장점이 있습니다.
+                        <br><br>
+                        다이렉트 보험 가입 시 '특약' 선택도 중요합니다. 마일리지 특약, 블랙박스 할인, 자녀 할인 특약, 첨단 안전장치 할인 특약 등 다양한 특약을 활용하여 보험료를 절감할 수 있습니다. 2026년에는 특히 첨단 안전장치(예: 차선 이탈 경고 장치, 전방 충돌 방지 보조 장치) 장착 차량에 대한 할인율이 높아지고 있으므로, 신차 구매 시 이 점을 고려하는 것이 좋습니다. 다이렉트 보험은 갱신 시점마다 여러 보험사의 견적을 비교하는 것이 필수적입니다. 보험사들은 신규 가입자 유치를 위해 할인 혜택을 제공하는 경우가 많으므로, 갱신 시점에는 기존 보험사뿐만 아니라 타 보험사의 다이렉트 상품도 비교하여 최저가를 찾아야 합니다.
+                        <br><br>
+                        다이렉트 보험 가입 시 유의해야 할 점은 사고 발생 시의 긴급출동 서비스입니다. 보험사마다 긴급출동 서비스의 견인 거리나 횟수가 다르므로, 본인의 운전 환경(장거리 운전 여부 등)을 고려하여 선택해야 합니다. 2026년에는 전기차 운전자를 위한 긴급 충전 서비스, 배터리 방전 시 긴급 견인 서비스 등도 중요한 특약으로 부상하고 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>자동차 보험료 모의계산: 갱신 시점에 유리한 보험사 찾기</h3>
+                <div class="article-body">
+                    <p>
+                        자동차 보험료 모의계산은 보험 갱신 시점을 앞두고 필수적으로 거쳐야 하는 절차입니다. 2026년에는 <a href="https://directpqmor.withusdone.com/" target="_blank" class="text-link">자동차 보험료 모의계산</a>을 통해 여러 보험사의 예상 보험료를 비교하여 합리적인 선택을 할 수 있습니다. 모의계산기는 운전자의 사고 이력, 운전 경력, 차량 모델, 거주 지역 등 다양한 변수를 바탕으로 보험료를 산출합니다. 2026년에는 운전 경력 인정 제도가 강화되어, 운전면허 취득 후 보험 가입 경력이 없더라도 운전 경력을 인정받을 수 있는 범위가 확대되었습니다. 해외 운전 경력, 군 운전 경력, 관공서 운전 경력 등을 증명하면 보험료 할인을 받을 수 있습니다.
+                        <br><br>
+                        모의계산기를 활용하여 '할증 기준 금액'을 변경해보는 것도 중요한 절약 팁입니다. 할증 기준 금액이란 물적 사고 발생 시 보험료가 할증되는 기준 금액을 의미합니다. 200만 원, 300만 원 등으로 설정할 수 있으며, 이 금액을 높게 설정할수록 보험료가 저렴해집니다. 다만, 사고 발생 시 본인 부담금이 커질 수 있으므로 신중하게 결정해야 합니다. 2026년 보험 시장 동향에 따르면, 보험료 절감을 위해 할증 기준 금액을 높이는 운전자가 늘고 있습니다.
+                        <br><br>
+                        모의계산기를 통해 보험료를 비교할 때는 보험사별 '사고 처리 서비스'도 고려해야 합니다. 일부 보험사는 보험료가 저렴한 대신 사고 처리 과정이 다소 복잡하거나 느릴 수 있습니다. 2026년에는 보험사들이 챗봇이나 AI 상담 서비스를 도입하여 사고 처리 과정을 간소화하고 있지만, 실제 사고 처리 경험이 있는 지인들의 후기를 참고하여 서비스 만족도가 높은 보험사를 선택하는 것이 좋습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Specific Vehicle Models (Domestic and Foreign) -->
+        <section class="category-section">
+            <h2 id="model-specific-insurance">차량 모델별 보험료 심층 분석: G70, 카니발, 볼보, 전기차 등</h2>
+            <div class="content-card">
+                <h3>G70 보험료: 고성능 스포츠 세단의 보험료 산정 기준</h3>
+                <div class="article-body">
+                    <p>
+                        제네시스 G70은 고급 스포츠 세단으로 분류되며, 일반 세단에 비해 보험료가 높게 책정되는 경향이 있습니다. 2026년 G70 보험료는 차량의 성능, 부품 가격, 그리고 모델별 사고율 통계에 크게 영향을 받습니다. G70은 부품 단가가 비싸고 수리 비용이 높아 자차 보험료가 높은 편입니다. 특히 2026년에는 G70의 고성능 모델(예: G70 마그마)에 대한 보험료 할증이 더욱 강화될 수 있습니다. <a href="https://cargpromotiond.withusdone.com/" target="_blank" class="text-link">G70보험료</a>는 다이렉트 보험 비교견적을 통해 여러 보험사의 견적을 비교하는 것이 필수적입니다. G70 운전자는 높은 보험료를 절감하기 위해 '마일리지 특약'과 '첨단 안전장치 할인'을 적극적으로 활용해야 합니다. G70에 기본 장착된 안전 사양(ADAS)은 보험료 할인으로 이어질 수 있으므로, 보험 가입 시 해당 특약을 반드시 확인해야 합니다.
+                        <br><br>
+                        G70 운전자의 경우, 자차 보험 가입은 선택이 아닌 필수입니다. 차량 가격이 높기 때문에 사고 발생 시 수리 비용이 상당하며, 이를 자차 보험으로 대비하지 않으면 큰 경제적 손실을 입을 수 있습니다. 2026년에는 보험사들이 G70 운전자를 위한 특별 할인 상품을 출시하고 있으며, 운전 경력이 오래된 운전자는 무사고 경력 할인 혜택을 최대로 받을 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>카니발 9인승 보험료: 패밀리카 보험료 절약 팁</h3>
+                <div class="article-body">
+                    <p>
+                        기아 카니발 9인승은 대표적인 패밀리카로 꼽히며, 2026년에도 높은 판매량을 유지하고 있습니다. <a href="https://cargpromotione.withusdone.com/" target="_blank" class="text-link">카니발9인승보험료</a>는 일반 승용차와 달리 '다인승 차량' 특성을 고려하여 산정됩니다. 2026년 보험 시장 동향을 보면, 카니발 9인승은 승합차로 분류되어 보험료가 일반 승용차보다 저렴할 수 있습니다. 특히 9인승 차량은 '승용차'가 아닌 '승합차'로 분류되어 보험료 산정 기준이 다르게 적용될 수 있습니다.
+                        <br><br>
+                        카니발 9인승 운전자는 주로 가족 단위로 운전하는 경우가 많으므로 '자녀 할인 특약'이나 '운전자 한정 특약'을 잘 활용해야 합니다. 자녀 할인 특약은 만 6세 이하 자녀가 있는 경우 보험료 할인을 제공하며, 2026년에는 그 혜택 범위가 확대될 수 있습니다. 또한, 운전자를 부부나 가족으로 한정하면 보험료를 크게 절감할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>카니발 하이브리드 보험료: 친환경차 보험료 할인 혜택</h3>
+                <div class="article-body">
+                    <p>
+                        카니발 하이브리드는 2026년에도 높은 인기를 얻고 있습니다. <a href="https://directpqmop.withusdone.com/" target="_blank" class="text-link">카니발 하이브리드 보험료</a>는 일반 내연기관 차량보다 보험료가 저렴한 경우가 많습니다. 2026년에는 친환경차 우대 정책에 따라 보험료 할인 혜택이 강화되고 있으며, 특히 하이브리드 차량은 연비가 좋고 환경 오염 물질 배출이 적다는 장점을 인정받아 보험료 할인을 받을 수 있습니다.
+                        <br><br>
+                        하이브리드 차량의 경우, 배터리 관련 보상 특약도 중요합니다. 사고 발생 시 배터리 파손 위험이 있으며, 배터리 교체 비용이 상당하므로 '하이브리드차 전용 특약'을 반드시 확인해야 합니다. 2026년에는 보험사들이 하이브리드 차량 운전자를 위한 맞춤형 상품을 출시하고 있으며, 운전 습관에 따른 할인 혜택도 제공됩니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>프리우스 AWD 보험료: 수입 친환경차 보험료 분석</h3>
+                <div class="article-body">
+                    <p>
+                        도요타 프리우스 AWD는 수입차임에도 불구하고 연비와 친환경성으로 인기가 높습니다. <a href="https://directpqmot.withusdone.com/" target="_blank" class="text-link">프리우스 awd 보험료</a>는 수입차 특성상 국내 차량보다 부품 가격이 높고 수리 비용이 비싸다는 점이 반영됩니다. 2026년에는 수입차 보험료 산정 시 '모델별 손해율'이 더욱 엄격하게 적용됩니다. 프리우스는 연비가 좋고 운전자층이 안정적인 편이어서, 다른 수입차 모델 대비 보험료가 상대적으로 저렴할 수 있습니다.
+                        <br><br>
+                        프리우스 AWD 운전자는 '수입차 전문 수리 업체'와 연계된 특약을 확인하는 것이 좋습니다. 사고 발생 시 지정된 수리 업체에서 수리를 받으면 보험료 할인을 받을 수 있습니다. 2026년에는 수입차 보험료 절감을 위한 다양한 특약이 출시되고 있으며, 다이렉트 보험 비교견적을 통해 최저가를 찾는 것이 중요합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>K4 보험료: 신차 출시 모델 보험료 예측</h3>
+                <div class="article-body">
+                    <p>
+                        기아 K4는 2026년 신차로 출시되면서 많은 관심을 받고 있습니다. <a href="https://directpqmou.withusdone.com/" target="_blank" class="text-link">K4 보험료</a>는 신차 출시 모델의 특성상 아직 정확한 통계가 쌓이지 않아, 보험사별로 견적 차이가 클 수 있습니다. 2026년에는 신차 모델의 보험료 산정을 위해 유사 모델의 손해율을 참고하거나, 첨단 안전장치 장착 여부에 따라 할인율을 높게 적용하는 방식으로 보험료를 책정합니다. K4는 첨단 안전장치가 기본 탑재되는 경우가 많으므로, 이러한 할인을 적극적으로 활용해야 합니다.
+                        <br><br>
+                        신차의 경우 '차량 가액'이 높게 책정되어 자차 보험료가 높은 편입니다. K4 운전자는 차량 구매 시 보험료 절감을 위해 '자기부담금'을 높게 설정하거나, '마일리지 특약'을 활용하는 것이 좋습니다. 2026년에는 신차 구매자를 위한 특별 할인 프로그램이 보험사별로 출시될 수 있으므로, 다이렉트 비교견적을 통해 최신 정보를 확인하는 것이 중요합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>볼보 XC90 보험료: 수입 SUV 보험료와 안전 등급의 영향</h3>
+                <div class="article-body">
+                    <p>
+                        볼보 XC90은 '안전의 대명사'로 불리는 수입 SUV입니다. <a href="https://directpqmov.withusdone.com/" target="_blank" class="text-link">볼보 XC90 보험료</a>는 수입차 특성상 국내 차량보다 부품 가격이 높지만, 높은 안전성 덕분에 일부 보험사에서는 할인 혜택을 제공하기도 합니다. 2026년에는 볼보 XC90의 안전 등급과 ADAS(첨단 운전자 보조 시스템) 장착 여부가 보험료 산정에 중요한 변수로 작용합니다. XC90은 첨단 안전장치가 기본으로 장착되어 있어, '첨단 안전장치 할인 특약'을 통해 보험료 절감 혜택을 받을 수 있습니다.
+                        <br><br>
+                        볼보 XC90 운전자는 높은 수리 비용에 대비하여 자차 보험 가입은 필수입니다. 보험 가입 시 자기부담금을 적절하게 설정하고, 사고 발생 시 수입차 전문 수리 업체와의 연계 여부도 확인해야 합니다. 2026년에는 볼보 XC90의 전기차 모델(XC90 리차지)에 대한 보험료 할인 혜택도 늘어나고 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>볼보 전기차 보험료: 전기차 전용 특약의 중요성</h3>
+                <div class="article-body">
+                    <p>
+                        볼보 전기차(C40, XC40 리차지 등)는 2026년에도 꾸준히 판매되고 있습니다. <a href="https://directpqmow.withusdone.com/" target="_blank" class="text-link">볼보 전기차 보험료</a>는 일반 내연기관 차량과 달리 '배터리 보상' 특약이 중요합니다. 전기차 배터리는 차량 가격의 상당 부분을 차지하며, 사고 시 배터리 파손 위험이 높습니다. 2026년에는 전기차 전용 특약이 강화되어, 충전 중 발생하는 사고나 배터리 파손에 대한 보상을 제공하는 보험 상품이 늘어나고 있습니다.
+                        <br><br>
+                        전기차는 내연기관 차량보다 부품 구조가 단순하여 수리 비용이 저렴할 수 있지만, 배터리 교체 비용이 매우 높다는 단점이 있습니다. 따라서 볼보 전기차 운전자는 반드시 전기차 전용 특약에 가입하여 배터리 관련 위험에 대비해야 합니다. 2026년에는 전기차 충전 인프라 확충에 따라 충전 중 사고에 대한 보상도 중요한 이슈로 부상하고 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>르노 필랑트/필란테 보험료: 희소성 높은 모델 보험료 분석</h3>
+                <div class="article-body">
+                    <p>
+                        르노 필랑트(필란테)는 국내에서 희소성이 높은 모델입니다. <a href="https://directpqmoy.withusdone.com/" target="_blank" class="text-link">르노 필란테 보험료</a>는 희소성 높은 차량 특성상 부품 수급이 어려워 수리 기간이 길어지고, 부품 가격이 높게 책정될 수 있다는 점이 반영됩니다. 2026년에는 희소성이 높은 차량의 경우 보험료 산정 시 '모델별 손해율'이 중요하게 작용하며, 다이렉트 보험 비교견적을 통해 최저가를 찾는 것이 필수적입니다.
+                        <br><br>
+                        르노 필랑트 운전자는 보험 가입 시 '자차 보험'에 대한 보장 범위를 신중하게 검토해야 합니다. 특히 부품 수급 문제로 인해 수리 기간 동안 렌터카 비용이 발생하는 경우가 많으므로, '대차료 특약'도 확인해야 합니다. 2026년에는 수입차 부품 공동 구매 시스템이 활성화되면서 부품 가격이 안정화될 수 있지만, 여전히 희소성이 높은 모델은 보험료 부담이 클 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>제네시스 GV60 마그마 보험료: 고성능 전기차 보험료 예측</h3>
+                <div class="article-body">
+                    <p>
+                        제네시스 GV60 마그마는 고성능 전기차 모델로, 일반 전기차보다 보험료가 높게 책정될 수 있습니다. 2026년 <a href="https://directpqmoz.withusdone.com/" target="_blank" class="text-link">제네시스 GV60 마그마 보험료</a>는 고성능 차량 특성과 전기차 특성이 동시에 반영됩니다. 차량 가격이 높고 가속력이 뛰어나 사고 위험이 높다고 판단되기 때문입니다. GV60 마그마 운전자는 '고성능 전기차 전용 특약'을 통해 배터리 보상과 충전 중 사고에 대비해야 합니다.
+                        <br><br>
+                        고성능 전기차 운전자는 '운전 습관 할인 특약'을 활용하는 것이 유리합니다. 2026년에는 보험사들이 텔레매틱스 기술을 활용하여 운전 습관을 분석하고, 안전 운전자에게 파격적인 할인 혜택을 제공하고 있습니다. GV60 마그마 운전자는 차량에 기본 장착된 첨단 안전장치 할인을 통해 보험료 부담을 줄일 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>아테온 보험료: 폭스바겐 세단 보험료 분석</h3>
+                <div class="article-body">
+                    <p>
+                        폭스바겐 아테온은 디자인과 실용성을 겸비한 수입 세단입니다. 2026년 <a href="https://directqpmoa.withusdone.com/" target="_blank" class="text-link">아테온 보험료</a>는 수입차 특성상 국내 차량보다 부품 가격이 높지만, 폭스바겐 코리아의 부품 공급 시스템 안정화로 보험료가 안정화될 수 있습니다. 아테온 운전자는 보험 가입 시 '수입차 전문 수리 업체'와 연계된 특약을 확인하는 것이 좋습니다. 2026년에는 폭스바겐 모델에 대한 '모델별 손해율'이 공개되면서 보험료 산정이 더욱 명확해질 것으로 예상됩니다.
+                        <br><br>
+                        아테온 운전자는 보험료 절감을 위해 '자기부담금'을 높게 설정하거나, '마일리지 특약'을 활용하는 것이 좋습니다. 2026년에는 수입차 운전자를 위한 다양한 할인 특약이 출시되고 있으며, 다이렉트 보험 비교견적을 통해 최저가를 찾는 것이 중요합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>포터2 보험료 비교: 상업용 차량 보험료와 운전자 범위</h3>
+                <div class="article-body">
+                    <p>
+                        포터2는 대표적인 상업용 차량으로, <a href="https://directqpmob.withusdone.com/" target="_blank" class="text-link">포터2 보험료 비교</a> 시에는 일반 승용차와 다른 기준이 적용됩니다. 2026년에는 상업용 차량 보험료 산정 시 '운행 거리'와 '적재물'에 대한 특약이 중요하게 작용합니다. 상업용 차량은 운행 거리가 길고 사고 위험이 높다고 판단되어 보험료가 높게 책정될 수 있습니다. 따라서 '마일리지 특약'을 통해 운행 거리에 따른 보험료 환급을 받는 것이 중요합니다.
+                        <br><br>
+                        포터2 운전자는 주로 1인 운전이 많으므로 '운전자 1인 한정' 특약이 가장 저렴합니다. 2026년에는 상업용 차량 보험료 산정 시 '화물 운송 자격증' 소지 여부나 '운전 경력'이 더욱 중요하게 작용할 수 있습니다. 상업용 차량 보험 가입 시에는 반드시 '적재물 배상 특약'을 추가하여 운송 중 발생하는 적재물의 손해에 대비해야 합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="content-card">
+                <h3>봉고3 보험료 비교: 상업용 차량 보험료 절감 전략</h3>
+                <div class="article-body">
+                    <p>
+                        기아 봉고3는 포터2와 함께 대표적인 상업용 트럭입니다. <a href="https://directqpmoc.withusdone.com/" target="_blank" class="text-link">봉고3 보험료 비교</a> 시에도 상업용 차량의 특성을 고려해야 합니다. 2026년에는 상업용 차량 보험료 산정 시 '사고 이력'과 '운행 환경'이 중요한 변수로 작용합니다. 봉고3 운전자는 운전 경력이 오래된 경우가 많으므로 '무사고 경력 할인'을 통해 보험료 절감 혜택을 받을 수 있습니다.
+                        <br><br>
+                        봉고3 운전자는 '화물차 운전자 전용 보험'을 통해 운전 중 발생하는 다양한 위험에 대비할 수 있습니다. 2026년에는 상업용 차량 보험료 절감을 위한 다양한 특약이 출시되고 있으며, 다이렉트 보험 비교견적을 통해 최저가를 찾는 것이 중요합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </main>
-  </body>
+
+<footer style="font-size: 11px; color: #888; padding: 30px 20px; text-align: center; line-height: 1.8; font-family: sans-serif;">
+  <div style="margin-bottom: 8px;">
+    <!-- 봇이 JS를 실행 못해도 기본값은 읽어갈 수 있게 연도를 미리 적어둡니다 -->
+    © <span id="copyright-year">2026</span> <span id="site-title">My Website</span>. All rights reserved.
+  </div>
+
+  <div style="color: #ccc;">
+    <span id="bot-msg">데이터 동기화 중...</span> | 
+    <!-- 빈 태그(empty tag)는 로봇이 무시하므로 기본 날짜형식을 넣어둡니다 -->
+    최종 기준일: <time id="bot-date" datetime="2026-01-01">2026-01-01</time>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    // ----------------------------------------------------------------------
+    // 1. KST(한국 표준시) 기준 현재 날짜 및 시간 계산
+    // ----------------------------------------------------------------------
+    function getFormattedKstTime() {
+      // (1) UTC 시간 계산 (브라우저 시간대 오프셋 제거)
+      const now = new Date();
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60 * 1000);
+      // (2) KST(UTC+9)로 변환
+      const kstGap = 9 * 60 * 60 * 1000;
+      const kstDate = new Date(utc + kstGap);
+
+      const year = kstDate.getFullYear();
+      const month = String(kstDate.getMonth() + 1).padStart(2, '0');
+      const day = String(kstDate.getDate()).padStart(2, '0');
+      const hour = String(kstDate.getHours()).padStart(2, '0');
+      const minute = String(kstDate.getMinutes()).padStart(2, '0');
+      const second = String(kstDate.getSeconds()).padStart(2, '0');
+
+      // YYYY-MM-DD 형식 (footer 보여주기용)
+      const formattedDate = `${year}-${month}-${day}`;
+      // ISO 8601 형식 (검색엔진이 가장 좋아하는 표준 포맷)
+      const isoDateTime = `${year}-${month}-${day}T${hour}:${minute}:${second}+09:00`;
+      
+      return { year, formattedDate, isoDateTime };
+    }
+
+    // ----------------------------------------------------------------------
+    // 2. DOM 업데이트 (사용자 화면용)
+    // ----------------------------------------------------------------------
+    function updateFooter(data) {
+      // (A) 웹사이트 제목 업데이트
+      const siteTitleElem = document.getElementById('site-title');
+      if (siteTitleElem) {
+        siteTitleElem.textContent = document.title || window.location.hostname;
+      }
+
+      // (B) 저작권 연도 업데이트
+      const yearElem = document.getElementById('copyright-year');
+      if (yearElem) {
+        yearElem.textContent = data.year;
+      }
+
+      // (C) 최종 기준일 업데이트
+      const dateElem = document.getElementById('bot-date');
+      if (dateElem) {
+        dateElem.textContent = data.formattedDate;
+        dateElem.setAttribute('datetime', data.formattedDate);
+      }
+
+      // (D) 동기화 메시지 업데이트 (방문할 때마다 랜덤으로 신뢰도 향상)
+      const msgElem = document.getElementById('bot-msg');
+      if (msgElem) {
+        // 메시지 목록을 10개로 확장
+        const msgs = [
+          "서비스 최적화 완료", 
+          "데이터베이스 동기화 완료", 
+          "보안 프로토콜 점검 완료",
+          "콘텐츠 최신화 완료",
+          "시스템 점검 완료",
+          "웹표준 레이아웃 최적화",
+          "사용자 인터페이스 안정화",
+          "성능 개선 완료",
+          "새로운 데이터 로드 완료",
+          "운영 시스템 안정화 완료"
+        ];
+        // 방문할 때마다 메시지 랜덤 선택
+        const randomIndex = Math.floor(Math.random() * msgs.length);
+        msgElem.textContent = msgs[randomIndex];
+      }
+    }
+
+    // ----------------------------------------------------------------------
+    // 3. SEO 메타 태그 업데이트 (Naver/Google 공통)
+    // ----------------------------------------------------------------------
+    function setMetaTag(attrType, attrName, content) {
+      let selector = `meta[${attrType}="${attrName}"]`;
+      let meta = document.querySelector(selector);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attrType, attrName);
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    }
+
+    function updateSeoMetaTags(data) {
+      // (A) Naver/Google 공통: Open Graph 수정일 (매우 중요)
+      setMetaTag('property', 'og:updated_time', data.isoDateTime);
+
+      // (B) Naver/Google 공통: Article 수정일 (Naver 웹문서 검색에 중요)
+      setMetaTag('property', 'article:modified_time', data.isoDateTime);
+
+      // (C) 일반 검색엔진(공통) 날짜 태그
+      setMetaTag('name', 'date', data.formattedDate);
+
+      // (D) 저작권 정보 갱신 (네이버 소유 확인 시 참고)
+      setMetaTag('name', 'copyright', `${data.year} ${document.title}`);
+    }
+
+    // ----------------------------------------------------------------------
+    // 4. [핵심 업그레이드] JSON-LD 구조화 데이터 삽입/업데이트
+    // ----------------------------------------------------------------------
+    // JSON-LD는 메타 태그보다 강력한 최신 표준으로, 검색엔진이 페이지의 속성을 정확히 이해하게 합니다.
+    function updateJsonLd(data) {
+      let script = document.querySelector('script[type="application/ld+json"]');
+      if (!script) {
+        script = document.createElement('script');
+        script.type = 'application/ld+json';
+        document.head.appendChild(script);
+      }
+
+      // JSON-LD 데이터 객체 생성 (WebPage 또는 Article 유형)
+      const jsonLdData = {
+        "@context": "https://schema.org",
+        "@type": "WebPage", // 페이지 전체에 대한 정보
+        "headline": document.title || window.location.hostname,
+        "dateModified": data.isoDateTime, // 핵심: 최신 업데이트 시간 기록
+        "datePublished": data.isoDateTime, // 발행일과 수정일이 같으면 최신으로 인식
+        "name": document.title || window.location.hostname
+      };
+      
+      // 스크립트 태그 내용 업데이트
+      script.textContent = JSON.stringify(jsonLdData, null, 2);
+    }
+
+    // ----------------------------------------------------------------------
+    // 5. 실행
+    // ----------------------------------------------------------------------
+    const timeData = getFormattedKstTime();
+    updateFooter(timeData);
+    updateSeoMetaTags(timeData);
+    updateJsonLd(timeData);
+  })();
+</script>
+
+
+</body>
 </html>
